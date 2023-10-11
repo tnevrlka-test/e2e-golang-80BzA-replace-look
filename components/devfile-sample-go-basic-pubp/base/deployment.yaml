@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-pubp
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-wrix-tenant/e2e-golang/devfile-sample-go-basic-pubp@sha256:f3f27ac221e41ccf1140bcfb7d03e92d96264e784259cf19db943ac0c56621e3
         name: my-go
         ports:
         - containerPort: 8081
