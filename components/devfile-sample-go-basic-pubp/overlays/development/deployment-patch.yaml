@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-pubp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-wrix-tenant/e2e-golang/devfile-sample-go-basic-pubp@sha256:f3f27ac221e41ccf1140bcfb7d03e92d96264e784259cf19db943ac0c56621e3
+        name: my-go
+        resources: {}
+status: {}
